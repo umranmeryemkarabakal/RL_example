@@ -7,23 +7,23 @@
   <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge" alt="Matplotlib" />
 </p>
 
-## 🇬🇧 Overview
+## Overview
 
 Two reinforcement-learning approaches to the multi-armed bandit problem, choosing which ad to show on `Ads_CTR_Optimisation.csv`: Upper Confidence Bound and Thompson Sampling.
 
 **Quick start:** `pip install -r requirements.txt && python ucb.py`
 
-## 🇹🇷 Proje hakkında
+## Proje hakkında
 
 Çok kollu haydut (multi-armed bandit) problemini reklam seçimi üzerinden çözen iki pekiştirmeli öğrenme yöntemi: Upper Confidence Bound (UCB) ve Thompson Sampling.
 
-## ✨ Özellikler
+## Özellikler
 
 - `ucb.py`: UCB ile reklam seçimi ve toplam ödül
 - `thompson_sampling.py`: Beta dağılımıyla Thompson Sampling
 - Seçilen reklamların histogramı
 
-## ⚙️ Kurulum ve çalıştırma
+## Kurulum ve çalıştırma
 
 ```bash
 python -m venv .venv
@@ -35,7 +35,7 @@ pip install -r requirements.txt
 python thompson_sampling.py
 ```
 
-## 📁 Dosya yapısı
+## Dosya yapısı
 
 ```text
 RL_example/
